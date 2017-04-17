@@ -35,3 +35,22 @@ var browser = prompt("Tell us, what browser are you use?");
     } else{
         alert("Hope, you have normal browser");
     }
+
+
+//from if...else to switch
+var someNumber = prompt("a?", " ");
+switch(someNumber){
+    case '0':
+        alert("a=1");
+        break;
+    case '1':
+        alert("a=1");
+        break;
+    case '2':
+    case '3':
+        alert("a=2 or a=3");
+        break;
+    default:
+        alert("You wow wow wow!!!");
+        break;
+}
