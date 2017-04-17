@@ -22,4 +22,6 @@ switch(day){
     case 'Sunday':
         alert('Yeah! It is weekend, and I will do nothing!');
         break;
+    default:
+        alert("Ok, you are do not want talk about my week");
 }
