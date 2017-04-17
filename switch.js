@@ -25,3 +25,13 @@ switch(day){
     default:
         alert("Ok, you are do not want talk about my week");
 }
+
+// from switch to if
+var browser = prompt("Tell us, what browser are you use?");
+    if(browser === "IE"){
+        alert("Wow-wow! IE!");
+    } else if(browser === "Chrome" || browser === "Firefox" || browser === "Safari" || browser === "Opera"){
+        alert("Ok, that is great!");
+    } else{
+        alert("Hope, you have normal browser");
+    }
