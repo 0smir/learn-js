@@ -14,3 +14,28 @@ function randomVeg(array, element) {
 
 randomVeg(vegetables, rand);
 
+function addToEnd(array, element) {
+    array.push(element);
+}
+
+addToEnd(vegetables, 'Kale');
+console.log(vegetables);
+
+addToEnd(vegetables, 'Mushrooms');
+console.log(vegetables);
+
+
+var userNumbersSum = 0,
+    customNumbers = [];
+
+while(true){
+    var userNumbers = prompt('Add number', 0);
+    if(isNaN(userNumbers) || userNumbers === '' || userNumbers === null) break;
+    customNumbers.push(userNumbers);
+    userNumbersSum = userNumbersSum + +userNumbers;
+}
+
+console.log(userNumbersSum);
+console.log(customNumbers);
+
+
