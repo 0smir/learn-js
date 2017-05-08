@@ -16,7 +16,7 @@ var salarSum = 0;
 
 
 function isEmpty(){
-    for(person in salaryTable){
+    for(var person in salaryTable){
         return false;
     }
     return true;
@@ -28,7 +28,7 @@ function showSalar(){
     if(isEmpty() === true){
         console.log('Salary list empty!')
     } else {
-        for(person in salaryTable){
+        for(var person in salaryTable){
             var salarIndividual = salaryTable[person];
             salarSum = salarSum + salarIndividual;
         }
@@ -37,3 +37,10 @@ function showSalar(){
 
 }
 showSalar();
+
+
+function propCount() {
+       console.log(Object.keys(salaryTable).length);
+}
+
+propCount();
