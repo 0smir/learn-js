@@ -38,4 +38,15 @@ while(true){
 console.log(userNumbersSum);
 console.log(customNumbers);
 
+var numbForFiltr = [2, 3, 4, 6];
+
+function filterRange(array) {
+
+}
+
+var filtered = filterRange(numbForFiltr, 3, 5);
+
+console.log(filtered);
+
+
 
