@@ -22,3 +22,16 @@ for(var i = 0; i < paragraphSpleted.length; i++){
     document.write(wordUppercased);
 }
 
+var testString = "Lorem";
+console.log(testString.length);
+console.log(testString.charAt(1));
+console.log(testString[1]);
+
+var emptyStr = '';
+console.log(emptyStr.charAt(0));
+console.log(emptyStr[0]);
+
+console.log(testString.substr(0, 3));
+console.log(testString.substr(0));
+
+
