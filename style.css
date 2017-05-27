@@ -1,0 +1,15 @@
+ul{
+    padding:5px;
+    border: 1px solid blue;
+    background: white;
+}
+
+li{
+    padding: 3px;
+    margin-bottom: 15px;
+    background: lightpink;
+}
+
+ul > li:last-child{
+    margin-bottom: 0;
+}
