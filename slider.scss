@@ -15,7 +15,7 @@ body{
 }
 .slider{
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   margin: 0 auto;
   width: 670px;
   height: 950px;
@@ -33,6 +33,7 @@ body{
     &:hover,
     &:focus,
     &:active{
+      outline: none;
       color: rgba(255, 255, 255, 1);
     }
   }
@@ -61,11 +62,21 @@ body{
     width: 100%;
     height: auto;
   }
+  span{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 60px;
+    background: rgba(255, 255, 255, .4);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
 }
 .controls-wrapper{
   position: absolute;
   left: 50%;
-  bottom: 50px;
+  bottom: 350px;
   margin: 0 0 0 -120px;
   padding: 0;
   width: 100%;
